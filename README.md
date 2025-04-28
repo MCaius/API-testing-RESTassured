@@ -66,11 +66,11 @@ src
 2. **Run the test suites using Maven:**:
 - Run all CRUD tests:
    ```bash
-   git mvn test -DsuiteXmlFile=CRUD-tests.xml
+    mvn test -DsuiteXmlFile=CRUD-tests.xml
    ```
 - Run mandatory (basic) tests:
    ```bash
-   git mvn test -DsuiteXmlFile=CRUD-tests.xml
+    mvn test -DsuiteXmlFile=CRUD-tests.xml
    ```
   (Make sure your working directory is at project root when running Maven commands.)
 
@@ -96,3 +96,14 @@ src
 - This project focuses on simplicity and can be easily expanded to more complex test scenarios.
 - Great for educational purposes, interview preparation, and bootstrapping more serious API frameworks later.
 - No external environment needed: It uses public dummy API endpoints.
+
+---
+## 📸 Screenshot Example 
+
+![CRUD-tests](https://github.com/user-attachments/assets/f65da0ea-981e-40cc-91ac-3cf29122f45e)
+
+
+![Basic-tests](https://github.com/user-attachments/assets/878c2a6b-9281-4cbf-8411-3d6ca4311ac9)
+
+
+
