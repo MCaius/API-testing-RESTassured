@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRUD Test Suite" verbose="1">
+
+    <test name="User API CRUD Tests">
+        <classes>
+            <class name="com.atr.api.tests.CreateUserTest"/>
+            <class name="com.atr.api.tests.GetSingleUserTest"/>
+            <class name="com.atr.api.tests.UpdateUserTest"/>
+            <class name="com.atr.api.tests.DeleteUserTest"/>
+        </classes>
+    </test>
+
+</suite>
